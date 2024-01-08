@@ -2,7 +2,7 @@
 
 /*banner section styles*/
 .banner {
-    background-image: url('../resources/Banner Image.png');
+    background-image: url('../resources/BannerImage.png');
     margin: 50px 140px;
     width: 1320px;
     height: 600px;
@@ -10,10 +10,6 @@
     color: #FFF;
     text-align: center;
     font-family: Merriweather;
-
-    border-radius: 16px;
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
-    box-shadow: #070211; 
 }
 
 .banner-title{
@@ -217,6 +213,8 @@
 
 .portfolio-img-gallery {
     margin: 100px auto 50px;
+    height: 500px;
+    display: block;
 }
 
 
