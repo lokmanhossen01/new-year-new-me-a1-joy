@@ -318,6 +318,8 @@ header .banner {
   font-size: 20px;
   font-weight: 400;
   line-height: 32px; 
+
+  margin-bottom: 50px;
   
 }
 
@@ -360,3 +362,15 @@ input {
 }
 
 
+/* Footer Section Styles */
+.footer {
+  background-color: #070211;
+  height: 609px;
+  padding: 150px;
+
+}
+
+
+.footer-row {
+  
+}
