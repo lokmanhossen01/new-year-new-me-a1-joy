@@ -1,6 +1,5 @@
 /* common shared styles */
 
-
 /*banner section styles*/
 .banner {
     background-image: url('../resources/Banner Image.png');
@@ -16,6 +15,7 @@
 .banner-title{
     font-size: 32px;
     font-weight: 400;
+    padding-top: 180px;
 }
 
 .banner-description {
@@ -102,13 +102,16 @@
 /* Address Section Styles */
 
 .address {
-    padding: 100px 385px 215px;
+    /* padding: 100px 385px 215px; */
+    padding: 120px 380px;
     text-align: center;
     background-color: rgb(255, 0, 0, 0.1);
     
     margin: 50px 50px 50px 140px;
-    
-   
+}
+
+.address h3 {
+    font-size: 32px;
 }
 
 
@@ -134,3 +137,50 @@
     border-radius: 5px;
 
 }
+
+
+
+/* Portfolio Section with image gallery style */
+
+.portfolio {
+    width: 1320px;
+    height: 600px; 
+    margin: 50px 140px;
+    /* padding: 50px 140px; */
+}
+.portfolio-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.portfolio-info h1, .subscribe h1{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.portfolio-info p, .subscribe p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.portfolio-img-gallery {
+    margin: 100px auto 50px;
+}
+
+
+.portfolio-img-gallery img:hover{
+    transform: scale(0.8) rotate(-15deg);
+    border-radius: 100%;
+}
+
+/* Subscribe Section Styles */
+
+
+
