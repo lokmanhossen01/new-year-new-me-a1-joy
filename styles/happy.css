@@ -122,11 +122,10 @@ header .banner {
 /* Address Section Styles */
 
 .address {
-  /* padding: 100px 385px 215px; */
   padding: 120px 380px;
   text-align: center;
   background-color: rgb(255, 0, 0, 0.1);
-  margin: 30px 0;
+  margin: 50px 0;
 }
 
 .address h3 {
@@ -150,7 +149,7 @@ header .banner {
   font-size: 20px;
   font-weight: 700;
   text-transform: uppercase;
-  background-color: rgb(255, 0, 0, 0.1);
+  background-color: rgba(255, 0, 0);
   padding: 15px;
   border-radius: 10px;
   margin: 30px;
@@ -170,7 +169,6 @@ header .banner {
 
 .happy-new-year-info-title {
   color: #F00;
-  /* text-align: center; */
   font-family: Inter;
   font-size: 24px;
   font-weight: 500;
@@ -183,13 +181,11 @@ header .banner {
   font-weight: 400;
   line-height: 32px;
   max-width: 320px; 
-  /* text-align: center; */
 }
 
 .happy-new-yaer-info-main {
   color: #070211;
   font-family: Merriweather;
-  /* text-align: center; */
   font-size: 48px;
   font-weight: 900;
   max-width: fit-content;
@@ -366,11 +362,41 @@ input {
 .footer {
   background-color: #070211;
   height: 609px;
-  padding: 150px;
+  padding: 140px 220px;
+  margin-top: 100px;
 
 }
 
 
-.footer-row {
+.footer-row-one {
+  display: flex;
+  gap: 592px;
+  margin-bottom: 50px;
+}
+
+.location, .contact {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 500;
+}
+.footer-row-two {
+  padding: 40px;
+  text-align: center;
+}
+
+.social-links a img {
+  width: 64px;
+  height: 64px; 
+}
+.footer-row-three {
+  display: flex;
+  gap: 722px;
+  margin-top: 50px;
   
+
+  color: #FFF;
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 500;
 }
