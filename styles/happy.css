@@ -112,6 +112,7 @@ header .banner {
   text-transform: uppercase;
   padding: 10px;
   margin-top: 15px;
+  cursor: pointer;
 }
 
 .welcome img {
@@ -153,6 +154,7 @@ header .banner {
   padding: 15px;
   border-radius: 10px;
   margin: 30px;
+  cursor: pointer;
 }
 
 
